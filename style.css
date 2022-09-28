@@ -1,0 +1,128 @@
+
+body{
+  background-color: pink;
+}
+
+[class*="col-"] {
+  width: 100%;
+
+}
+
+
+  @media only screen and (min-width: 768px) {
+  body{
+    background-color: lightblue;
+  }
+
+[class*="col-"] {
+  width: 100%;
+  float: left;
+  padding: 10px;
+}
+}
+
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.header {
+background-image: url("https://www.groningermuseum.nl/media/2/Gebouw/_1200x670_crop_center-center_95_none/GM_CF026393.jpg");
+background-position:center;
+background-repeat: no-repeat;
+background-color: darkblue;
+color: white;
+padding: 15px;
+text-align: center;
+text-decoration: underline 4px;
+font-family: Verdana,Arial,sans-serif;
+background-size:cover;
+}
+
+
+img{
+float: right;
+}
+
+.row{
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.kleur1{
+  background-color: red;
+}
+
+.kleur2{
+  background-color: blue;
+}
+
+
+.g{
+  font-family: Verdana,Arial,sans-serif;
+  color: white;
+}
+
+.p{
+  font-family: Verdana, Arial, sans-serif;
+  color: black;
+}
+
+.gr{
+  font-family: Verdana, Arial, sans-serif;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+
+
+.onderwerp{
+  font-family: Verdana, Arial, sans-serif;
+  color: Black;
+  text-align: center;
+  text-decoration: underline;
+  background-color: white;
+}
+
+footer{
+  width: 98%;
+  padding: 8px;
+  text-align: right;
+  clear: right;
+  color: black;
+  background-color: lightblue;
+  font-family: Verdana,Arial,sans-serif;
+  min-height: 80px;
+}
+
+.menu li:hover{
+  background-color: white;
+}
+
+.menu ul {
+list-style-type: square;
+color: darkblue;
+margin: 0px;
+padding: 0px;
+}
+
+.menu li {
+color: black;
+margin-bottom: 10px
+padding: 8px;

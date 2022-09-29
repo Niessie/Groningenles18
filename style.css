@@ -111,7 +111,6 @@ footer{
   color: black;
   background-color: lightblue;
   font-family: Verdana,Arial,sans-serif;
-  min-height: 80px;
 }
 
 .menu li:hover{

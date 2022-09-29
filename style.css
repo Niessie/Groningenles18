@@ -16,7 +16,7 @@ body{
 
 [class*="col-"] {
   float: left;
-  padding: 10px;
+  padding: 15px;
 }
 }
 
@@ -103,11 +103,10 @@ footer{
   width: 98%;
   padding: 8px;
   text-align: right;
-  clear: right;
   color: black;
   background-color: lightblue;
   font-family: Verdana,Arial,sans-serif;
-  position: absolute;
+  position: bottom; 
   bottom: 0px;
 }
 

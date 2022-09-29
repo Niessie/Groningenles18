@@ -5,9 +5,6 @@ body{
 
 [class*="col-"] {
   width: 100%;
-  float: left;
-  padding: 10px;
-
 }
 
 
@@ -18,7 +15,6 @@ body{
 }
 
 [class*="col-"] {
-  width: 100%;
   float: left;
   padding: 10px;
 }

@@ -106,9 +106,6 @@ footer{
   color: black;
   font-family: Verdana,Arial,sans-serif;
   position: absolute; 
-  bottom: 0px;
-  clear:  left;
-	min-height:  100px;
 }
 
 .menu li:hover{

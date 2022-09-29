@@ -15,6 +15,7 @@ body{
   body{
     background-color: lightblue;
   }
+}
 
 [class*="col-"] {
   width: 100%;

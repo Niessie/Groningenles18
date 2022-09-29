@@ -104,9 +104,8 @@ footer{
   padding: 8px;
   text-align: right;
   color: black;
-  background-color: lightblue;
   font-family: Verdana,Arial,sans-serif;
-  position: bottom; 
+  position: absolute; 
   bottom: 0px;
 }
 

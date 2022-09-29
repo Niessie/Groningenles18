@@ -11,8 +11,7 @@ body{
 }
 
 
-
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   body{
     background-color: lightblue;
   }
@@ -111,6 +110,8 @@ footer{
   color: black;
   background-color: lightblue;
   font-family: Verdana,Arial,sans-serif;
+  position: absolute;
+  bottom: 0px;
 }
 
 .menu li:hover{
